@@ -16,6 +16,7 @@ To install you need to pull this git repo
 ```
 git pull https://github.com/jaketame/scripts.git
 Amend plexconf.conf with your relevant paths
+Copy sysctl.conf to /etc/sysctl.conf - Please ensure you verify no existing parameters exist, if this is a fresh install there won't be
 ```
 
 Once you have the scripts locally update crontab.
