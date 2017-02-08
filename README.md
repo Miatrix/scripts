@@ -14,7 +14,10 @@ What things you need to install the software and how to install them
 To install you need to pull this git repo
 
 ```
-git pull https://github.com/jaketame/scripts.git
+cd /opt
+git clone https://github.com/jaketame/scripts.git plexacd/
+cd /opt/plexacd
+chmod +x *.sh
 Amend plexconf.conf with your relevant paths
 Copy sysctl.conf to /etc/sysctl.conf - Please ensure you verify no existing parameters exist, if this is a fresh install there won't be
 ```
